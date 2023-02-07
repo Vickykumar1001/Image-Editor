@@ -166,8 +166,25 @@ body{
     width: 100%;
     margin: 0 0 15px;
   }
+  footer{
+    display:none;
+  }
 }
-
+footer{
+  position:absolute;
+  bottom:0;
+  left: 0;
+  text-align: center;
+  background-color: transparent;
+  width:100%;
+  margin-top:5px;
+}
+footer p{
+  padding:4px auto 0;
+  color:#ffffff;
+  font-size: larger;
+  font-weight: 800;
+}
 @media screen and (max-width: 500px) {
   .controls button{
     width: 100%;
